@@ -1,0 +1,22 @@
+{
+  "train_data_path": "C:\\Pets\\data\\pets\\train.csv",
+  "validation_data_path": "C:\\Pets\\data\\pets\\validation.csv",
+  "test_data_path": "C:\\Pets\\data\\pets\\test.csv",
+  "learning_rate": 0.01,
+  "batch_size": 256,
+  "hidden_units": [
+    128,
+    128,
+    64,
+    64
+  ],
+  "max_to_keep": 5,
+  "summary_dir": "C:\\Pets\\logs\\",
+  "checkpoint_dir": "C:\\Pets\\checkpoint\\",
+  "export_dir":"C:\\Pets\\checkpoint\\export\\best_exporter\\",
+  "dropout_probability": 0.0,
+  "steps": null,
+  "mode": "train_and_eval",
+  "workers": 12,
+  "submission_file":"C:\\Pets\\data\\pets\\sample_submission.csv"
+}
